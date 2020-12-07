@@ -1,8 +1,8 @@
 
-# Desc: Example Stage world file providing a camera interface and blobfinder.
-#       Based on simple.world
-# Author:  Rich Mattes
-# Date: 12 December 2012
+# Desc: Example Stage world file providing a laser rangefinder and
+#       "GPS" (ground truth). Based on simple.world
+# Author:  Ivan Markovic
+# Date: 12 December 2019
 
 include "pioneer.inc"
 include "map.inc"
