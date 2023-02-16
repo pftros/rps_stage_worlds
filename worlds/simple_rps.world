@@ -36,7 +36,7 @@ floorplan
 )
 
 
-pioneer2dx_base_no_sonar
+pioneer2dx_base
 (		  
   # can refer to the robot by this name
   name "r0"
