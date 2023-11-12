@@ -45,6 +45,8 @@ pioneer2dx_base
   # pioneer2dx's sonars	will be ranger:0 and the laser will be ranger:1
   sicklaser( pose [ 0.1 0 0.2 0 ] ) 
  
+  velocity_bounds [-1.5 1.5 0 0 0 0 -90.0 90.0 ]
+
   # report error-free position in world coordinates
   localization "gps"
   localization_origin [ 0 0 0 0 ]
