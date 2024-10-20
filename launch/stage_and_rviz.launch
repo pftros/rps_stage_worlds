@@ -1,0 +1,10 @@
+<launch>
+  <!-- Set the simulation time parameter -->
+  <param name="use_sim_time" value="true" />
+
+  <!-- Launch the Stage simulator (stageros) -->
+  <node name="stageros" pkg="stage_ros" type="stageros" args="$(find rps_stage_worlds)/worlds/simple_rps.world" />
+
+  <!-- Launch RViz with the specified configuration -->
+  <node name="rviz" pkg="rviz" type="rviz" args="-d $(find rps_stage_worlds)/rviz/simple_rps.rviz" />
+</launch>
